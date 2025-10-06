@@ -1,6 +1,6 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
+# NAME: Hayden
 # DATE: 
 # BRIEF DESCRIPTION:  
 
@@ -15,7 +15,14 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+response = input("Would you like a compliment? ")
 
+if response.lower() == "yes" or response.lower() == "y":
+    print("You have wonderful eyes.")
+else:
+    pass 
+
+print("Thank you for playing.")
 
 
 
