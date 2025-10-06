@@ -18,26 +18,12 @@
 
 
 
-def main():
-    compliment()
+response = input("Would you like a compliment? ")
 
+if response == "yes":
+    print("You have wonderful eyes.")
 
-def compliment():
-    user_choice = input('Would you like a compliment? ')
-    
-    if user_choice == 'yes':
-        print('You have wonderful eyes.')
-        print('Thank you for playing.')
-    elif user_choice == 'Yes':
-        print('No compliment for you!')
-        print('Thank you for playing.')
-    elif user_choice == 'y':
-        print('No compliment for you!')
-        print('Thank you for playing.')
-    elif user_choice == 'no':
-        print('No compliment for you!')
-        print('Thank you for playing.')
-
+print("Thank you for playing.")
 
 
 
